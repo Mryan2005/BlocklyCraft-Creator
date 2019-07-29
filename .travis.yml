@@ -26,4 +26,4 @@ install:
 
 script:
   - quasar build -m electron
-
+  - docker build -t blocklycraftcreator .
